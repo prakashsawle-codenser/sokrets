@@ -1,0 +1,8 @@
+[12-Jul-2018 06:28:09 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in /home/goyj1xlweuuj/public_html/sokrets/system/core/Common.php on line 658 and defined in /home/goyj1xlweuuj/public_html/sokrets/system/core/Exceptions.php:190
+Stack trace:
+#0 /home/goyj1xlweuuj/public_html/sokrets/system/core/Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown in /home/goyj1xlweuuj/public_html/sokrets/system/core/Exceptions.php on line 190
+[17-Jul-2018 05:12:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/goyj1xlweuuj/public_html/sokrets/system/libraries/Session/drivers/Session_files_driver.php on line 420
+[30-Aug-2018 13:46:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/goyj1xlweuuj/public_html/sokrets/system/libraries/Session/drivers/Session_files_driver.php on line 212
